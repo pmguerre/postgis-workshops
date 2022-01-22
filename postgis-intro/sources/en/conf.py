@@ -166,7 +166,7 @@ latex_elements = {
 # (source start file, target name, title, author, document class [howto/manual]).
 latex_documents = [
   ('index', 'PostGISIntro.tex', u'Introduction to PostGIS',
-   u'Mark Leslie, Paul Ramsey', 'manual', True),
+   u'Mark Leslie, Paul Ramsey, et. al', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -185,3 +185,7 @@ latex_documents = [
 
 # If false, no module index is generated.
 latex_use_modindex = False
+
+# -- Options for sphinx-intl example
+locale_dirs = ['../locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
